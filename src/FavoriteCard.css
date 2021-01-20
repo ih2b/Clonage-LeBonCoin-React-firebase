@@ -1,0 +1,52 @@
+.favoriteCard{
+    display: flex;
+    width: 90%;
+    margin: 50px;
+    background-color: #e6ebef;
+    box-shadow: 0 0 5px 0 rgb(165, 162, 162);
+}
+.favoriteCard__img{
+    max-width: 300px;
+    width: 60%;
+    height: 300px;
+    object-fit: contain;
+}
+.favoriteCard__Right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.favoriteCard__Right > h2 {
+    margin: 10px;
+}
+.favoriteCard__Right > h2:hover {
+    color: orange;
+}  
+.favoriteCard__Right > h3 {
+    margin: 10px;
+    color: orange;
+}
+.favoriteCard__Right > p {
+    margin-bottom: 20px;
+    margin-left: 15px;
+} 
+.favoriteCard__Left{
+    margin: 20px;
+}
+.favoriteCard__button{
+    background-color: white;
+    display: flex;
+    color: rgb(92, 149, 255);
+    border: 1px solid rgb(92, 149, 255) ;
+    margin-right: 50px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 5px 10px;
+    width: max-content;
+    height: max-content;
+}
+.favoriteCard__button:hover{
+    background-color: rgb(219, 235, 253);
+}

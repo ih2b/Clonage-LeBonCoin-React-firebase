@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 0 rgb(165, 162, 162);
+}
+.card__img{
+    max-width: 200px;
+    width: 60%;
+    height: 200px;
+    object-fit: contain;
+}
+.card__Right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card__Right > h2 {
+    margin: 10px;
+} 
+.card__Right > h3 {
+    margin: 10px;
+    color: orange;
+}
+.card__Right > p {
+    margin-bottom: 20px;
+    margin-left: 15px;
+} 
+.card__Left{
+    margin: 20px;
+}

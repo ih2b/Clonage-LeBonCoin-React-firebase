@@ -1,0 +1,24 @@
+.favorite {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.favorite > h2 {
+    margin: 30px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 3px solid orange;
+}
+.favorite > h1 {
+    margin: 30px;
+}
+.favorite > h3 {
+    margin-left: 40px;
+    font-size: 17px;
+}
+.favorite__articles{
+    width: 100%;
+}

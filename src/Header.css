@@ -1,0 +1,55 @@
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 100;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.leboncoinLogo{
+    width: 180px;
+    object-fit: contain;
+    margin: 0 30px;
+    margin-top: 10px;
+}
+.header__DeposerInput{
+    display: flex;
+    background-color: #FF6E14;
+    margin: 0px 20px 0px 0px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.header__depose{
+    align-self: center;
+}
+.header__rechercher{
+    align-self: center;
+}
+.header__search{
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    padding: 5px 10px;
+    color: #1A1A1A;
+}
+.header__nav{
+    display: flex;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    color: #1A1A1A;
+}
+.header__optionIcon{
+    position: relative ;
+    align-self: center;
+    color: #1A1A1A;
+}
+.option__link {
+    text-decoration: none;
+    color: #1A1A1A;
+}
